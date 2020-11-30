@@ -1,17 +1,20 @@
-Datos= xlsread('Datos.xlsx')
+Datos = xlsread('Datos.xlsx')
 x=Datos(:,1);
 y=Datos(:,2);
 
 %%modelo primer orden + tiempo muerto %%
-s=tf('s');
-To= 1.3515;
-num=(exp(-To*s)*0.6473);
-den=(5.6745*s+1)
-f=num/den;
+% s=tf('s');
+% To= 1.3515;
+% num=(exp(-To*s)*0.6473);
+% den=(5.6745*s+1)
+% f=num/den;
 
-NUM=[0.6473];
-DEN=[5.6745 1];
-
+NUM1=[32.74];
+DEN1=[102 1];
+Dtime1=0.5;
+NUM2=[30.79];
+DEN2=[46.2 1];
+Dtime2=16.8;
 %PID
 % P=2.6302;
 % I=0.54967;
