@@ -1,6 +1,3 @@
-Datos = xlsread('Datos.xlsx')
-x=Datos(:,1);
-y=Datos(:,2);
 
 %%modelo primer orden + tiempo muerto %%
 % s=tf('s');
