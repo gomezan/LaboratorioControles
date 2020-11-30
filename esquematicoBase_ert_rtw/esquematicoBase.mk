@@ -2,7 +2,7 @@
 ## Makefile generated for Simulink model 'esquematicoBase'. 
 ## 
 ## Makefile     : esquematicoBase.mk
-## Generated on : Mon Nov 30 16:32:13 2020
+## Generated on : Mon Nov 30 10:04:38 2020
 ##  version:  
 ## 
 ## Build Info:
@@ -27,7 +27,7 @@ MATLAB_ROOT               = C:/PROGRA~1/MATLAB/R2020a
 MATLAB_BIN                = C:/PROGRA~1/MATLAB/R2020a/bin
 MATLAB_ARCH_BIN           = $(MATLAB_BIN)/win64
 MASTER_ANCHOR_DIR         = 
-START_DIR                 = C:/Users/GLORIA~1/DOCUME~1/Abelardo/UNIVER~1/Nueva carpeta/LaboratorioControles
+START_DIR                 = C:/Users/Zipa/Documents/GitHub/LaboratorioControles
 SOLVER                    = 
 SOLVER_OBJ                = 
 CLASSIC_INTERFACE         = 0
@@ -67,7 +67,7 @@ PRODUCT_BIN      = $(RELATIVE_PATH_TO_ANCHOR)/$(PRODUCT_NAME).eep
 ARDUINO_TOOLS    = $(ARDUINO_ROOT)/hardware/tools/avr/bin
 ELF2EEP_OPTIONS  = -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0
 DOWNLOAD_ARGS    =  >tmp.trash 2>&1 -P$(ARDUINO_PORT) -V -q -q -q -q -F -C$(ARDUINO_ROOT)/hardware/tools/avr/etc/avrdude.conf -p$(ARDUINO_MCU) -c$(ARDUINO_PROTOCOL) -b$(ARDUINO_BAUD) -D -Uflash:w:
-SLIB_PATH        = C:/Users/GLORIA~1/DOCUME~1/MATLAB/R2020a/ArduinoStaticLibrary/ArduinoMega2560/FasterRuns
+SLIB_PATH        = C:/Users/Zipa/DOCUME~1/MATLAB/R2020a/ARDUIN~1/ARDUIN~1/FASTER~1
 
 TOOLCHAIN_SRCS = 
 TOOLCHAIN_INCS = 
@@ -205,7 +205,7 @@ BUILD_TYPE = "Top-Level Standalone Executable"
 ## INCLUDE PATHS
 ###########################################################################
 
-INCLUDES_BUILDINFO = -I$(START_DIR) -IC:/PROGRA~3/MATLAB/SupportPackages/R2020a/toolbox/target/shared/svd/include -IC:/PROGRA~3/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinobase/include -I$(START_DIR)/esquematicoBase_ert_rtw -I$(MATLAB_ROOT)/extern/include -I$(MATLAB_ROOT)/simulink/include -I$(MATLAB_ROOT)/rtw/c/src -I$(MATLAB_ROOT)/rtw/c/src/ext_mode/common -I$(MATLAB_ROOT)/rtw/c/ert -I$(MATLAB_ROOT)/toolbox/coder/rtiostream/src -I$(MATLAB_ROOT)/toolbox/coder/rtiostream/src/utils -I$(ARDUINO_ROOT)/hardware/arduino/avr/cores/arduino -I$(ARDUINO_ROOT)/hardware/arduino/avr/variants/mega -IC:/PROGRA~3/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinotarget/include -IC:/PROGRA~3/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinotarget/scheduler/include -I$(ARDUINO_ROOT)/hardware/tools/avr/avr/include/avr -IC:/PROGRA~3/MATLAB/SupportPackages/R2020a/toolbox/target/shared/externalmode_daemon/include
+INCLUDES_BUILDINFO = -I$(START_DIR) -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2020a/toolbox/target/shared/svd/include -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2020a/toolbox/target/SUPPOR~1/ARDUIN~2/include -I$(START_DIR)/esquematicoBase_ert_rtw -I$(MATLAB_ROOT)/extern/include -I$(MATLAB_ROOT)/simulink/include -I$(MATLAB_ROOT)/rtw/c/src -I$(MATLAB_ROOT)/rtw/c/src/ext_mode/common -I$(MATLAB_ROOT)/rtw/c/ert -I$(MATLAB_ROOT)/toolbox/coder/rtiostream/src -I$(MATLAB_ROOT)/toolbox/coder/rtiostream/src/utils -I$(ARDUINO_ROOT)/hardware/arduino/avr/cores/arduino -I$(ARDUINO_ROOT)/hardware/arduino/avr/variants/mega -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2020a/toolbox/target/SUPPOR~1/ARDUIN~1/include -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2020a/toolbox/target/SUPPOR~1/ARDUIN~1/SCHEDU~1/include -I$(ARDUINO_ROOT)/hardware/tools/avr/avr/include/avr -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2020a/toolbox/target/shared/EXTERN~1/include
 
 INCLUDES = $(INCLUDES_BUILDINFO)
 
