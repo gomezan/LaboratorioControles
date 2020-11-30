@@ -22,11 +22,11 @@ Dtime2=16.8;
 % N=0.53998;
 % % modelo=tf(num,den);
 
-figure()
-hold on
-plot(x,y,'red');
-step(f);
-hold off
+% figure()
+% hold on
+% plot(x,y,'red');
+% step(f);
+% hold off
 
 % Calculo del error
 
