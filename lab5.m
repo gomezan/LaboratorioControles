@@ -9,18 +9,19 @@ y=Datos(:,2);
 % den=(5.6745*s+1)
 % f=num/den;
 
-NUM1=[32.74];
-DEN1=[102 1];
-Dtime1=0.5;
+NUM=[30.3];
+DEN=[93.15 1];
+Dtime=12.25;
 NUM2=[30.79];
 DEN2=[46.2 1];
 Dtime2=16.8;
+
 %PID
-% P=2.6302;
-% I=0.54967;
-% D=1.06;
-% N=0.53998;
-% % modelo=tf(num,den);
+P=0.064509;
+I=0.00084212;
+D=0.4626;
+N=0.034234;
+% modelo=tf(num,den);
 
 % figure()
 % hold on

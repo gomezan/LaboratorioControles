@@ -26,30 +26,38 @@
     paramMap.nTotData            = -1;
     
     ;%
-    ;% Auto data (gamgcsukny)
+    ;% Auto data (g0szqdi43g)
     ;%
-      section.nData     = 5;
-      section.data(5)  = dumData; %prealloc
+      section.nData     = 7;
+      section.data(7)  = dumData; %prealloc
       
-	  ;% gamgcsukny.AnalogInput_SampleTime
+	  ;% g0szqdi43g.AnalogInput_SampleTime
 	  section.data(1).logicalSrcIdx = 0;
 	  section.data(1).dtTransOffset = 0;
 	
-	  ;% gamgcsukny.Step_Time
+	  ;% g0szqdi43g.Constant1_Value
 	  section.data(2).logicalSrcIdx = 1;
 	  section.data(2).dtTransOffset = 1;
 	
-	  ;% gamgcsukny.Step_Y0
+	  ;% g0szqdi43g.Gain_Gain
 	  section.data(3).logicalSrcIdx = 2;
 	  section.data(3).dtTransOffset = 2;
 	
-	  ;% gamgcsukny.Step_YFinal
+	  ;% g0szqdi43g.Step1_Time
 	  section.data(4).logicalSrcIdx = 3;
 	  section.data(4).dtTransOffset = 3;
 	
-	  ;% gamgcsukny.Gain_Gain
+	  ;% g0szqdi43g.Step1_Y0
 	  section.data(5).logicalSrcIdx = 4;
 	  section.data(5).dtTransOffset = 4;
+	
+	  ;% g0szqdi43g.Step1_YFinal
+	  section.data(6).logicalSrcIdx = 5;
+	  section.data(6).dtTransOffset = 5;
+	
+	  ;% g0szqdi43g.Switch_Threshold
+	  section.data(7).logicalSrcIdx = 6;
+	  section.data(7).dtTransOffset = 6;
 	
       nTotData = nTotData + section.nData;
       paramMap.sections(1) = section;
@@ -94,16 +102,16 @@
     sigMap.nTotData            = -1;
     
     ;%
-    ;% Auto data (pcevguwwg1g)
+    ;% Auto data (fsg2leehhck)
     ;%
       section.nData     = 2;
       section.data(2)  = dumData; %prealloc
       
-	  ;% pcevguwwg1g.aarebomal5
+	  ;% fsg2leehhck.p0h4spcc2j
 	  section.data(1).logicalSrcIdx = 0;
 	  section.data(1).dtTransOffset = 0;
 	
-	  ;% pcevguwwg1g.ezhoq03bdk
+	  ;% fsg2leehhck.oykr52iati
 	  section.data(2).logicalSrcIdx = 1;
 	  section.data(2).dtTransOffset = 1;
 	
@@ -150,12 +158,12 @@
     dworkMap.nTotData            = -1;
     
     ;%
-    ;% Auto data (haqxrxtiiae)
+    ;% Auto data (kywlqvr0ypq)
     ;%
       section.nData     = 1;
       section.data(1)  = dumData; %prealloc
       
-	  ;% haqxrxtiiae.ckcme2i2ys
+	  ;% kywlqvr0ypq.lzwrkqqe0k
 	  section.data(1).logicalSrcIdx = 0;
 	  section.data(1).dtTransOffset = 0;
 	
@@ -166,7 +174,7 @@
       section.nData     = 1;
       section.data(1)  = dumData; %prealloc
       
-	  ;% haqxrxtiiae.olwofu5ua2
+	  ;% kywlqvr0ypq.n1w5t1gnce
 	  section.data(1).logicalSrcIdx = 1;
 	  section.data(1).dtTransOffset = 0;
 	
@@ -177,19 +185,19 @@
       section.nData     = 4;
       section.data(4)  = dumData; %prealloc
       
-	  ;% haqxrxtiiae.mdvhm2iyde
+	  ;% kywlqvr0ypq.nuik1ewrzw
 	  section.data(1).logicalSrcIdx = 2;
 	  section.data(1).dtTransOffset = 0;
 	
-	  ;% haqxrxtiiae.a42ofewwte
+	  ;% kywlqvr0ypq.dnmdro2yga
 	  section.data(2).logicalSrcIdx = 3;
 	  section.data(2).dtTransOffset = 1;
 	
-	  ;% haqxrxtiiae.ff3echamzb
+	  ;% kywlqvr0ypq.njdwacqqva
 	  section.data(3).logicalSrcIdx = 4;
 	  section.data(3).dtTransOffset = 2;
 	
-	  ;% haqxrxtiiae.bhudni4gk3
+	  ;% kywlqvr0ypq.cwj4rxccgt
 	  section.data(4).logicalSrcIdx = 5;
 	  section.data(4).dtTransOffset = 3;
 	
@@ -197,12 +205,16 @@
       dworkMap.sections(3) = section;
       clear section
       
-      section.nData     = 1;
-      section.data(1)  = dumData; %prealloc
+      section.nData     = 2;
+      section.data(2)  = dumData; %prealloc
       
-	  ;% haqxrxtiiae.dsk2ize4fz.LoggedData
+	  ;% kywlqvr0ypq.g3pjhgfdt3.LoggedData
 	  section.data(1).logicalSrcIdx = 6;
 	  section.data(1).dtTransOffset = 0;
+	
+	  ;% kywlqvr0ypq.gnl0zdjaxc.LoggedData
+	  section.data(2).logicalSrcIdx = 7;
+	  section.data(2).dtTransOffset = 1;
 	
       nTotData = nTotData + section.nData;
       dworkMap.sections(4) = section;
@@ -211,12 +223,12 @@
       section.nData     = 2;
       section.data(2)  = dumData; %prealloc
       
-	  ;% haqxrxtiiae.fjmeyym4qs
-	  section.data(1).logicalSrcIdx = 7;
+	  ;% kywlqvr0ypq.bamvfpeifo
+	  section.data(1).logicalSrcIdx = 8;
 	  section.data(1).dtTransOffset = 0;
 	
-	  ;% haqxrxtiiae.g3mhl0i21g
-	  section.data(2).logicalSrcIdx = 8;
+	  ;% kywlqvr0ypq.evp3fsmjzo
+	  section.data(2).logicalSrcIdx = 9;
 	  section.data(2).dtTransOffset = 1;
 	
       nTotData = nTotData + section.nData;
@@ -249,8 +261,8 @@
   ;%
 
 
-  targMap.checksum0 = 1044111200;
-  targMap.checksum1 = 4284083935;
-  targMap.checksum2 = 603134960;
-  targMap.checksum3 = 7610571;
+  targMap.checksum0 = 2953729405;
+  targMap.checksum1 = 3450621555;
+  targMap.checksum2 = 1666260150;
+  targMap.checksum3 = 3076442894;
 

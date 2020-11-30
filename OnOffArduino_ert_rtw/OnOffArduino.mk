@@ -1,13 +1,13 @@
 ###########################################################################
-## Makefile generated for Simulink model 'esquematicoBase'. 
+## Makefile generated for Simulink model 'OnOffArduino'. 
 ## 
-## Makefile     : esquematicoBase.mk
-## Generated on : Mon Nov 30 16:32:13 2020
+## Makefile     : OnOffArduino.mk
+## Generated on : Mon Nov 30 16:30:58 2020
 ##  version:  
 ## 
 ## Build Info:
 ## 
-## Final product: $(RELATIVE_PATH_TO_ANCHOR)/esquematicoBase.elf
+## Final product: $(RELATIVE_PATH_TO_ANCHOR)/OnOffArduino.elf
 ## Product type : executable
 ## Build type   : Top-Level Standalone Executable
 ## 
@@ -21,8 +21,8 @@
 # PRODUCT_NAME            Name of the system to build
 # MAKEFILE                Name of this makefile
 
-PRODUCT_NAME              = esquematicoBase
-MAKEFILE                  = esquematicoBase.mk
+PRODUCT_NAME              = OnOffArduino
+MAKEFILE                  = OnOffArduino.mk
 MATLAB_ROOT               = C:/PROGRA~1/MATLAB/R2020a
 MATLAB_BIN                = C:/PROGRA~1/MATLAB/R2020a/bin
 MATLAB_ARCH_BIN           = $(MATLAB_BIN)/win64
@@ -197,7 +197,7 @@ SHAREDLIB_LDFLAGS    =
 ## OUTPUT INFO
 ###########################################################################
 
-PRODUCT = $(RELATIVE_PATH_TO_ANCHOR)/esquematicoBase.elf
+PRODUCT = $(RELATIVE_PATH_TO_ANCHOR)/OnOffArduino.elf
 PRODUCT_TYPE = "executable"
 BUILD_TYPE = "Top-Level Standalone Executable"
 
@@ -205,7 +205,7 @@ BUILD_TYPE = "Top-Level Standalone Executable"
 ## INCLUDE PATHS
 ###########################################################################
 
-INCLUDES_BUILDINFO = -I$(START_DIR) -IC:/PROGRA~3/MATLAB/SupportPackages/R2020a/toolbox/target/shared/svd/include -IC:/PROGRA~3/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinobase/include -I$(START_DIR)/esquematicoBase_ert_rtw -I$(MATLAB_ROOT)/extern/include -I$(MATLAB_ROOT)/simulink/include -I$(MATLAB_ROOT)/rtw/c/src -I$(MATLAB_ROOT)/rtw/c/src/ext_mode/common -I$(MATLAB_ROOT)/rtw/c/ert -I$(MATLAB_ROOT)/toolbox/coder/rtiostream/src -I$(MATLAB_ROOT)/toolbox/coder/rtiostream/src/utils -I$(ARDUINO_ROOT)/hardware/arduino/avr/cores/arduino -I$(ARDUINO_ROOT)/hardware/arduino/avr/variants/mega -IC:/PROGRA~3/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinotarget/include -IC:/PROGRA~3/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinotarget/scheduler/include -I$(ARDUINO_ROOT)/hardware/tools/avr/avr/include/avr -IC:/PROGRA~3/MATLAB/SupportPackages/R2020a/toolbox/target/shared/externalmode_daemon/include
+INCLUDES_BUILDINFO = -I$(START_DIR) -IC:/PROGRA~3/MATLAB/SupportPackages/R2020a/toolbox/target/shared/svd/include -IC:/PROGRA~3/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinobase/include -I$(START_DIR)/OnOffArduino_ert_rtw -I$(MATLAB_ROOT)/extern/include -I$(MATLAB_ROOT)/simulink/include -I$(MATLAB_ROOT)/rtw/c/src -I$(MATLAB_ROOT)/rtw/c/src/ext_mode/common -I$(MATLAB_ROOT)/rtw/c/ert -I$(MATLAB_ROOT)/toolbox/coder/rtiostream/src -I$(MATLAB_ROOT)/toolbox/coder/rtiostream/src/utils -I$(ARDUINO_ROOT)/hardware/arduino/avr/cores/arduino -I$(ARDUINO_ROOT)/hardware/arduino/avr/variants/mega -IC:/PROGRA~3/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinotarget/include -IC:/PROGRA~3/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinotarget/scheduler/include -I$(ARDUINO_ROOT)/hardware/tools/avr/avr/include/avr -IC:/PROGRA~3/MATLAB/SupportPackages/R2020a/toolbox/target/shared/externalmode_daemon/include
 
 INCLUDES = $(INCLUDES_BUILDINFO)
 
@@ -213,12 +213,12 @@ INCLUDES = $(INCLUDES_BUILDINFO)
 ## DEFINES
 ###########################################################################
 
-DEFINES_ = -DMODEL=esquematicoBase -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=1 -DEXT_MODE=1 -DONESTEPFCN=1 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0 -DXCP_CUSTOM_PLATFORM -DEXIT_FAILURE=1 -DEXTMODE_DISABLEPRINTF -DEXTMODE_DISABLETESTING -DEXTMODE_DISABLE_ARGS_PROCESSING=1 -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT -DMW_TIMERID=5 -DMW_PRESCALAR=256 -DMW_TIMERCOUNT=59286 -DMW_SCHEDULERCOUNTER=1 -D_RTT_BAUDRATE_SERIAL0_=9600 -D_RTT_BAUDRATE_SERIAL1_=9600 -D_RTT_BAUDRATE_SERIAL2_=9600 -D_RTT_BAUDRATE_SERIAL3_=9600 -D_RTT_ANALOG_REF_=0
+DEFINES_ = -DMODEL=OnOffArduino -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DON_TARGET_WAIT_FOR_START=1 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=1 -DEXT_MODE=1 -DONESTEPFCN=1 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0 -DXCP_CUSTOM_PLATFORM -DEXIT_FAILURE=1 -DEXTMODE_DISABLEPRINTF -DEXTMODE_DISABLETESTING -DEXTMODE_DISABLE_ARGS_PROCESSING=1 -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT -DMW_TIMERID=5 -DMW_PRESCALAR=256 -DMW_TIMERCOUNT=59286 -DMW_SCHEDULERCOUNTER=1 -D_RTT_BAUDRATE_SERIAL0_=9600 -D_RTT_BAUDRATE_SERIAL1_=9600 -D_RTT_BAUDRATE_SERIAL2_=9600 -D_RTT_BAUDRATE_SERIAL3_=9600 -D_RTT_ANALOG_REF_=0
 DEFINES_BUILD_ARGS = -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DONESTEPFCN=1 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0
 DEFINES_CUSTOM = 
 DEFINES_OPTS = -DON_TARGET_WAIT_FOR_START=1 -DTID01EQ=1
 DEFINES_SKIPFORSIL = -DXCP_CUSTOM_PLATFORM -DEXIT_FAILURE=1 -DEXTMODE_DISABLEPRINTF -DEXTMODE_DISABLETESTING -DEXTMODE_DISABLE_ARGS_PROCESSING=1 -DSTACK_SIZE=64 -DRT
-DEFINES_STANDARD = -DMODEL=esquematicoBase -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0
+DEFINES_STANDARD = -DMODEL=OnOffArduino -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0
 
 DEFINES = $(DEFINES_) $(DEFINES_BUILD_ARGS) $(DEFINES_CUSTOM) $(DEFINES_OPTS) $(DEFINES_SKIPFORSIL) $(DEFINES_STANDARD)
 
@@ -226,9 +226,9 @@ DEFINES = $(DEFINES_) $(DEFINES_BUILD_ARGS) $(DEFINES_CUSTOM) $(DEFINES_OPTS) $(
 ## SOURCE FILES
 ###########################################################################
 
-SRCS = C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinobase/src/MW_AnalogInput.cpp C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinobase/src/ArduinoPinHandleMap.cpp C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinobase/src/MW_PWM.cpp C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinobase/src/MW_PWMDriver.c $(START_DIR)/esquematicoBase_ert_rtw/esquematicoBase.c $(START_DIR)/esquematicoBase_ert_rtw/esquematicoBase_data.c $(MATLAB_ROOT)/rtw/c/src/ext_mode/common/updown.c $(MATLAB_ROOT)/rtw/c/src/ext_mode/common/ext_work.c $(MATLAB_ROOT)/toolbox/coder/rtiostream/src/utils/rtiostream_utils.c C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinotarget/registry/../src/MW_ArduinoHWInit.cpp C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinobase/src/io_wrappers.cpp C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinotarget/registry/../scheduler/src/arduinoAVRScheduler.cpp $(MATLAB_ROOT)/rtw/c/src/ext_mode/common/rtiostream_interface.c C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/shared/externalmode_daemon/src/ext_svr_daemon.c C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinotarget/registry/../src/rtiostream_serial_daemon.cpp C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/shared/externalmode_daemon/src/daemon_checksum.c
+SRCS = C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinobase/src/MW_PWM.cpp C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinobase/src/MW_PWMDriver.c C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinobase/src/ArduinoPinHandleMap.cpp C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinobase/src/MW_AnalogInput.cpp $(START_DIR)/OnOffArduino_ert_rtw/OnOffArduino.c $(START_DIR)/OnOffArduino_ert_rtw/OnOffArduino_data.c $(MATLAB_ROOT)/rtw/c/src/ext_mode/common/updown.c $(MATLAB_ROOT)/rtw/c/src/ext_mode/common/ext_work.c $(MATLAB_ROOT)/toolbox/coder/rtiostream/src/utils/rtiostream_utils.c C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinotarget/registry/../src/MW_ArduinoHWInit.cpp C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinobase/src/io_wrappers.cpp C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinotarget/registry/../scheduler/src/arduinoAVRScheduler.cpp $(MATLAB_ROOT)/rtw/c/src/ext_mode/common/rtiostream_interface.c C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/shared/externalmode_daemon/src/ext_svr_daemon.c C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinotarget/registry/../src/rtiostream_serial_daemon.cpp C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/shared/externalmode_daemon/src/daemon_checksum.c
 
-MAIN_SRC = $(START_DIR)/esquematicoBase_ert_rtw/ert_main.c
+MAIN_SRC = $(START_DIR)/OnOffArduino_ert_rtw/ert_main.c
 
 ALL_SRCS = $(SRCS) $(MAIN_SRC)
 
@@ -236,7 +236,7 @@ ALL_SRCS = $(SRCS) $(MAIN_SRC)
 ## OBJECTS
 ###########################################################################
 
-OBJS = MW_AnalogInput.o ArduinoPinHandleMap.o MW_PWM.o MW_PWMDriver.o esquematicoBase.o esquematicoBase_data.o updown.o ext_work.o rtiostream_utils.o MW_ArduinoHWInit.o io_wrappers.o arduinoAVRScheduler.o rtiostream_interface.o ext_svr_daemon.o rtiostream_serial_daemon.o daemon_checksum.o
+OBJS = MW_PWM.o MW_PWMDriver.o ArduinoPinHandleMap.o MW_AnalogInput.o OnOffArduino.o OnOffArduino_data.o updown.o ext_work.o rtiostream_utils.o MW_ArduinoHWInit.o io_wrappers.o arduinoAVRScheduler.o rtiostream_interface.o ext_svr_daemon.o rtiostream_serial_daemon.o daemon_checksum.o
 
 MAIN_OBJ = ert_main.o
 
@@ -463,19 +463,19 @@ $(PRODUCT) : $(OBJS) $(PREBUILT_OBJS) $(LIBS) $(MAIN_OBJ)
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
-%.o : $(START_DIR)/esquematicoBase_ert_rtw/%.c
+%.o : $(START_DIR)/OnOffArduino_ert_rtw/%.c
 	$(CC) $(CFLAGS) -o "$@" "$<"
 
 
-%.S.o : $(START_DIR)/esquematicoBase_ert_rtw/%.s
+%.S.o : $(START_DIR)/OnOffArduino_ert_rtw/%.s
 	$(AS) $(ASFLAGS) -o "$@" "$<"
 
 
-%.S.o : $(START_DIR)/esquematicoBase_ert_rtw/%.S
+%.S.o : $(START_DIR)/OnOffArduino_ert_rtw/%.S
 	$(AS) $(ASFLAGS) -o "$@" "$<"
 
 
-%.o : $(START_DIR)/esquematicoBase_ert_rtw/%.cpp
+%.o : $(START_DIR)/OnOffArduino_ert_rtw/%.cpp
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
@@ -543,14 +543,6 @@ $(PRODUCT) : $(OBJS) $(PREBUILT_OBJS) $(LIBS) $(MAIN_OBJ)
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
-MW_AnalogInput.o : C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinobase/src/MW_AnalogInput.cpp
-	$(CPP) $(CPPFLAGS) -o "$@" "$<"
-
-
-ArduinoPinHandleMap.o : C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinobase/src/ArduinoPinHandleMap.cpp
-	$(CPP) $(CPPFLAGS) -o "$@" "$<"
-
-
 MW_PWM.o : C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinobase/src/MW_PWM.cpp
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
@@ -559,15 +551,23 @@ MW_PWMDriver.o : C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/sup
 	$(CC) $(CFLAGS) -o "$@" "$<"
 
 
-ert_main.o : $(START_DIR)/esquematicoBase_ert_rtw/ert_main.c
+ArduinoPinHandleMap.o : C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinobase/src/ArduinoPinHandleMap.cpp
+	$(CPP) $(CPPFLAGS) -o "$@" "$<"
+
+
+MW_AnalogInput.o : C:/ProgramData/MATLAB/SupportPackages/R2020a/toolbox/target/supportpackages/arduinobase/src/MW_AnalogInput.cpp
+	$(CPP) $(CPPFLAGS) -o "$@" "$<"
+
+
+OnOffArduino.o : $(START_DIR)/OnOffArduino_ert_rtw/OnOffArduino.c
 	$(CC) $(CFLAGS) -o "$@" "$<"
 
 
-esquematicoBase.o : $(START_DIR)/esquematicoBase_ert_rtw/esquematicoBase.c
+OnOffArduino_data.o : $(START_DIR)/OnOffArduino_ert_rtw/OnOffArduino_data.c
 	$(CC) $(CFLAGS) -o "$@" "$<"
 
 
-esquematicoBase_data.o : $(START_DIR)/esquematicoBase_ert_rtw/esquematicoBase_data.c
+ert_main.o : $(START_DIR)/OnOffArduino_ert_rtw/ert_main.c
 	$(CC) $(CFLAGS) -o "$@" "$<"
 
 
