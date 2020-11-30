@@ -28,16 +28,28 @@
     ;%
     ;% Auto data (gamgcsukny)
     ;%
-      section.nData     = 2;
-      section.data(2)  = dumData; %prealloc
+      section.nData     = 5;
+      section.data(5)  = dumData; %prealloc
       
 	  ;% gamgcsukny.AnalogInput_SampleTime
 	  section.data(1).logicalSrcIdx = 0;
 	  section.data(1).dtTransOffset = 0;
 	
-	  ;% gamgcsukny.Constant_Value
+	  ;% gamgcsukny.Step_Time
 	  section.data(2).logicalSrcIdx = 1;
 	  section.data(2).dtTransOffset = 1;
+	
+	  ;% gamgcsukny.Step_Y0
+	  section.data(3).logicalSrcIdx = 2;
+	  section.data(3).dtTransOffset = 2;
+	
+	  ;% gamgcsukny.Step_YFinal
+	  section.data(4).logicalSrcIdx = 3;
+	  section.data(4).dtTransOffset = 3;
+	
+	  ;% gamgcsukny.Gain_Gain
+	  section.data(5).logicalSrcIdx = 4;
+	  section.data(5).dtTransOffset = 4;
 	
       nTotData = nTotData + section.nData;
       paramMap.sections(1) = section;
@@ -84,12 +96,16 @@
     ;%
     ;% Auto data (pcevguwwg1g)
     ;%
-      section.nData     = 1;
-      section.data(1)  = dumData; %prealloc
+      section.nData     = 2;
+      section.data(2)  = dumData; %prealloc
       
-	  ;% pcevguwwg1g.bmlb414dxn
+	  ;% pcevguwwg1g.aarebomal5
 	  section.data(1).logicalSrcIdx = 0;
 	  section.data(1).dtTransOffset = 0;
+	
+	  ;% pcevguwwg1g.ezhoq03bdk
+	  section.data(2).logicalSrcIdx = 1;
+	  section.data(2).dtTransOffset = 1;
 	
       nTotData = nTotData + section.nData;
       sigMap.sections(1) = section;
@@ -184,7 +200,7 @@
       section.nData     = 1;
       section.data(1)  = dumData; %prealloc
       
-	  ;% haqxrxtiiae.fybf0ymk2l.LoggedData
+	  ;% haqxrxtiiae.dsk2ize4fz.LoggedData
 	  section.data(1).logicalSrcIdx = 6;
 	  section.data(1).dtTransOffset = 0;
 	
@@ -195,11 +211,11 @@
       section.nData     = 2;
       section.data(2)  = dumData; %prealloc
       
-	  ;% haqxrxtiiae.g3mhl0i21g
+	  ;% haqxrxtiiae.fjmeyym4qs
 	  section.data(1).logicalSrcIdx = 7;
 	  section.data(1).dtTransOffset = 0;
 	
-	  ;% haqxrxtiiae.fjmeyym4qs
+	  ;% haqxrxtiiae.g3mhl0i21g
 	  section.data(2).logicalSrcIdx = 8;
 	  section.data(2).dtTransOffset = 1;
 	
@@ -233,8 +249,8 @@
   ;%
 
 
-  targMap.checksum0 = 2181052576;
-  targMap.checksum1 = 1977287346;
-  targMap.checksum2 = 2555386814;
-  targMap.checksum3 = 2091530516;
+  targMap.checksum0 = 1655008445;
+  targMap.checksum1 = 2838207693;
+  targMap.checksum2 = 3272554977;
+  targMap.checksum3 = 3835787893;
 
